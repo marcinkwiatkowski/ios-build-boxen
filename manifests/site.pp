@@ -76,12 +76,6 @@ node default {
     version => '2.0.0'
   }
 
-  ruby::gem { "cocoapods":
-    gem     => 'cocoapods',
-    ruby    => '2.0.0',
-    version => '~> 0.19.1'
-  }
-
   # common, useful packages
   package {
     [
